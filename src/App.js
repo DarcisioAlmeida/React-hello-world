@@ -1,13 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './componentes/Header';
+import { Footer } from './componentes/Footer';
 
 function App() {
   return (
     <div className="App">
+      <Header/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Este é meu primeiro App React.
         </p>
         <a
           className="App-link"
@@ -15,10 +18,13 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Bem vindo! Olá, Mundo!
+        <p> Darcisio Almeida - DEV 2021 </p>
         </a>
       </header>
+      <Footer/>
     </div>
+    
   );
 }
 
